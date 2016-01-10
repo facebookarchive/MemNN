@@ -13,4 +13,8 @@ This includes code in the following subdirectories:
  
   This code is implemented in Matlab; more documentation is given in the README in that subdirectory.
 
-
+### Other 3rd party implementations
+* [python-babi](https://github.com/vinhkhuc/MemN2N-babi-python): MemN2N implemenation on bAbI tasks with very nice interactive demo.
+* [theano-babi](https://github.com/npow/MemN2N): MemN2N implementation in Theano for bAbI tasks.
+* [tf-lang](https://github.com/carpedm20/MemN2N-tensorflow): MemN2N language model implementation in TensorFlow.
+* [tf-babi](https://github.com/domluna/memn2n): Another MemN2N implementation of MemN2N in TensorFlow, but for bAbI tasks.
