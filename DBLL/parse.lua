@@ -11,7 +11,7 @@ cmd:option("-iter_halve_lr",20,"number of iterations after which"
     .."start halving learning rate")
 cmd:option("-task",1,"")
 cmd:option("-gpu_index",1,"")
-cmd:option("-policy",0.5,"")
+cmd:option("-policy",0.5,"the rate of correct vs random answers, taking values 0.01, 0.1 or 0.5")
 cmd:option("-N_iter",20,"total number of iteration to run")
 cmd:option("-dic_file","/mnt/vol/gfsai-east/ai-group/users/jiwei/movieQA/movieQA_dict.txt",
     "path to the dictionary file")
