@@ -1,4 +1,5 @@
-Dialog-based Langauge Learning
+# Dialog-based Language Learning
+
 https://arxiv.org/abs/1604.06045
 
 From this directory, first run ./setup_data.sh to download the data (368M download, unpacks to 4.8GB).
