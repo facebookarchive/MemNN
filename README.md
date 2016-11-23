@@ -15,9 +15,9 @@ This includes code in the following subdirectories:
 
 * [DBLL](DBLL): Code to train MemN2N on tasks from the paper:
 
-[Jason Weston. "Dialog-based Language Learning". *arXiv:1604.06045 [cs.CL]*](https://arxiv.org/abs/1604.06045)".
+     [Jason Weston. "Dialog-based Language Learning". *arXiv:1604.06045 [cs.CL]*](https://arxiv.org/abs/1604.06045)".
 
-This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+  This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 ### Other 3rd party implementations
 * [python-babi](https://github.com/vinhkhuc/MemN2N-babi-python): MemN2N implemenation on bAbI tasks with very nice interactive demo.
