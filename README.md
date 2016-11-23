@@ -9,11 +9,11 @@ This includes code in the following subdirectories:
 
 * [MemN2N-babi-matlab](MemN2N-babi-matlab): The code for the MemN2N bAbI task experiments of Section 4 of the paper:
 
-     [S. Sukhbaatar, A. Szlam, J. Weston, R. Fergus. End-To-End Memory Networks. arXiv:1503.08895](http://arxiv.org/abs/1503.08895).
+     [S. Sukhbaatar, A. Szlam, J. Weston, R. Fergus. "End-To-End Memory Networks". *arXiv:1503.08895*](http://arxiv.org/abs/1503.08895).
  
   This code is implemented in Matlab; more documentation is given in the README in that subdirectory.
 
-* [DBLL](DBLL): Code to train on tasks from the paper "[Dialog-based Language Learning](https://arxiv.org/abs/1604.06045)". This code is implemented in [Torch7](http://torch.ch). The corresponding dataset for this task can be downloaded by running the `setup_data.sh` script in that directory.
+* [DBLL](DBLL): Code to train MemN2N on tasks from the paper [Jason Weston. "Dialog-based Language Learning". *arXiv:1604.06045 [cs.CL]*](https://arxiv.org/abs/1604.06045)". This code is implemented in [Torch7](http://torch.ch).
 
 ### Other 3rd party implementations
 * [python-babi](https://github.com/vinhkhuc/MemN2N-babi-python): MemN2N implemenation on bAbI tasks with very nice interactive demo.
