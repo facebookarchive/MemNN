@@ -1,3 +1,6 @@
+Dialog-based Langauge Learning
+https://arxiv.org/abs/1604.06045
+
 From this directory, first run ./setup_data.sh to download the data (368M download, unpacks to 4.8GB).
 
 Then, use one of the try_*.sh commands to train the model on one of the datasets.
