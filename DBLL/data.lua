@@ -30,7 +30,7 @@ function Data:load_dict()
 end
 
 function Data:getAnswerCandidate()
-    local answers={"hallway","office","bathroom","garden","kitchen"}
+    local answers={"hallway","office","bathroom","garden","kitchen", "bedroom"}
     self.AnswerCandidate={}
     self.AnswerCandidateReverse={}
     for i,word in pairs(answers)do
