@@ -1,6 +1,6 @@
 # Dialog-based Language Learning
 
-This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialog-based Language Learning](https://arxiv.org/abs/1604.06045)". This implementation was written by Jiwei Li.
+This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialog-based Language Learning](https://arxiv.org/abs/1604.06045)". This implementation was written by [Jiwei Li](https://web.stanford.edu/~jiweil/).
 
 ## Setup
 
