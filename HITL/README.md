@@ -1,16 +1,17 @@
 # Dialogue Learning With Human-in-the-Loop
 
-This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialogue Learning with Human-in-the-Loop](https://openreview.net/pdf?id=HJgXCV9xx).
+This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialogue Learning with Human-in-the-Loop](https://openreview.net/pdf?id=HJgXCV9xx)". This implementation was written by [Jiwei Li](https://web.stanford.edu/~jiweil/).
 
 ## Setup
 
 This code requires [Torch7](http://torch.ch) and its luarocks packages cutorch, cunn, nngraph, torchx, and tds.
 
-To get the data, from this directory first run ./setup\_data.sh to download the data (368M download, unpacks to 4.8GB) (we need to change this).
+To get the data, from this directory first run ./setup\_data.sh to download the data (94M download, unpacks to 449M).
 
 ## Dataset
-DataOnline/synthetic/ contains synthetic data for simulations.
-DataOnline/TurkData/ contains human-annotated versions of [WikiMovies](fb.ai/babi) data.
+After running ./setup\_data.sh:
+./data/synthetic/ contains synthetic data for simulations.
+./data/TurkData/ contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data.
 
 The synthetic data includes babi ("babi1_*") tasks and WikiMovies ("movieQA_*") data.
 
