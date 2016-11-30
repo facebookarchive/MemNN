@@ -13,17 +13,16 @@ After running ./setup\_data.sh:
 ./data/synthetic/ contains synthetic data for simulations.
 ./data/TurkData/ contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data.
 
-The synthetic data includes babi ("babi1_*") tasks and WikiMovies ("movieQA_*") data.
+The synthetic data includes babi ("babi1_\*") tasks and WikiMovies ("movieQA_\*") data.
 
 The TurkData is broken down as follows:
 
 * qa-train.txt: 66307 questions, all human-annotated, based on WikiMovies
 * qa-dev.txt: 9173 questions, as above
 * qa-test.txt: 7848 questions, as above
-
 * qa-train-1k.txt, qa-train-5k, qa-train-10k, qa-train-20k: random subsets of the training full 66k questions
-* qa-train-1k-1s.txt: version of the 1k with a specific reward label of 1 on each example
-* real_rbi-p=\*-memnn-feedback-train-10k.txt: different versions of 10k feedback with different p values
+* qa-train-1k-1s.txt: version of the 1k subset with a specific reward label of 1 on each example
+* real_rbi-p=\*-memnn-feedback-train-10k.txt: different versions of 10k feedback with different p values (see paper for more details)
 
 
 ## Usage
