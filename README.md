@@ -13,7 +13,7 @@ This includes code in the following subdirectories:
 * [DBLL](DBLL): Code to train MemN2N on tasks from the paper "[Dialog-based Language Learning](https://arxiv.org/abs/1604.06045)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
-* [HITL](HITL): Code to train MemN2N on tasks from the paper "[Dialogue Learning With Human-in-the-Loop](https://openreview.net/forum?id=HJgXCV9xx)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+* [HITL](HITL): Code to train MemN2N on tasks from the paper "[Dialogue Learning With Human-in-the-Loop](https://arxiv.org/abs/1611.09823)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
 ### Other 3rd party implementations

@@ -1,6 +1,6 @@
 # Dialogue Learning With Human-in-the-Loop
 
-This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialogue Learning with Human-in-the-Loop](https://openreview.net/pdf?id=HJgXCV9xx)". This implementation was written by [Jiwei Li](https://web.stanford.edu/~jiweil/).
+This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Dialogue Learning with Human-in-the-Loop](https://arxiv.org/abs/1611.09823)". This implementation was written by [Jiwei Li](https://web.stanford.edu/~jiweil/).
 
 ## Setup
 
@@ -60,4 +60,4 @@ Available options are:
 
 ## References
 
-* Jiwei Li, Alexander H. Miller, Sumit Chopra, Marc'Aurelio Ranzato and Jason Weston, "[Dialogue Learning with Human-in-the-Loop](https://openreview.net/pdf?id=HJgXCV9xx).
+* Jiwei Li, Alexander H. Miller, Sumit Chopra, Marc'Aurelio Ranzato and Jason Weston, "[Dialogue Learning with Human-in-the-Loop](https://arxiv.org/abs/1611.09823)", *arXiv:1611.09823 [cs.AI]*.
