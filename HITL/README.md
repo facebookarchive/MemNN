@@ -16,7 +16,7 @@ After running ./setup\_data.sh:
 The synthetic data includes babi ("babi1_\*") tasks and WikiMovies ("movieQA_\*") data.
 
 
-We additionally have [another dataset available](https://s3.amazonaws.com/fair-data/memnn/human_in_the_loop/turk_data.tar.gz), which contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data. This data is in a slightly simpler format, so the code here does not yet run on it out-of-the-box. It is a 4M download which unpacks to 15M.
+We additionally have [another dataset available](https://s3.amazonaws.com/fair-data/memnn/human_in_the_loop/turk_data.tar.gz), which contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data. This data is in a slightly simpler format, so the code here does not yet run on it out-of-the-box. It is a 4M download which unpacks to 14M.
 
 The turk_data is broken down as follows:
 
@@ -24,7 +24,7 @@ The turk_data is broken down as follows:
 * qa-dev.txt: 9173 questions, as above
 * qa-test.txt: 7848 questions, as above
 * qa-train-1k.txt, qa-train-5k, qa-train-10k, qa-train-20k: random subsets of the training full 66k questions
-* real_rbi-r=\*-memnn-feedback-train-10k.txt: different versions of 10k feedback data with different r values, which represent the proportion of data with rewards. r=2 corresponds to regular supervised learning, with true labels given but no feedback.
+* real_rbi-r=\*-memnn-feedback-train-10k.txt: different versions of 10k feedback data with different r values, which represent the proportion of data with rewards.
 
 
 ## Usage

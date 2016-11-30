@@ -57,22 +57,22 @@ elseif params.setting=="IM" then
 end
 
 if params.dataset=="movieQA" then
-    params.dic_file="./data/synthetic/movieQA.dict"
-    params.trainData="./data/synthetic/movieQA_"..Tasks[params.task].."_train.txt"
-    params.devData="./data/synthetic/movieQA_"..Tasks[params.task].."_dev.txt"
-    params.testData="./data/synthetic/movieQA_"..Tasks[params.task].."_test.txt"
-    params.IncorrectResponse="./data/synthetic/movieQA_"..Tasks[params.task].."_incorrect_feedback"
+    params.dic_file="./data/movieQA.dict"
+    params.trainData="./data/movieQA_"..Tasks[params.task].."_train.txt"
+    params.devData="./data/movieQA_"..Tasks[params.task].."_dev.txt"
+    params.testData="./data/movieQA_"..Tasks[params.task].."_test.txt"
+    params.IncorrectResponse="./data/movieQA_"..Tasks[params.task].."_incorrect_feedback"
     params.dimension=50;
     if params.setting=="RBI" then
         params.lr=0.2;
     else params.lr=0.05
     end
 else
-    params.dic_file="./data/synthetic/babi.dict"
-    params.trainData="./data/synthetic/babi1_"..Tasks[params.task].."_train.txt"
-    params.devData="./data/synthetic/babi1_"..Tasks[params.task].."_dev.txt"
-    params.testData="./data/synthetic/babi1_"..Tasks[params.task].."_test.txt"
-    params.IncorrectResponse="./data/synthetic/babi1_"..Tasks[params.task].."_incorrect_feedback"
+    params.dic_file="./data/babi.dict"
+    params.trainData="./data/babi1_"..Tasks[params.task].."_train.txt"
+    params.devData="./data/babi1_"..Tasks[params.task].."_dev.txt"
+    params.testData="./data/babi1_"..Tasks[params.task].."_test.txt"
+    params.IncorrectResponse="./data/babi1_"..Tasks[params.task].."_incorrect_feedback"
     params.dimension=20;
     params.lr=0.01
 end
