@@ -10,8 +10,11 @@ To get the data, from this directory first run ./setup\_data.sh to download the 
 
 ## Dataset
 After running ./setup\_data.sh:
+
 ./data/synthetic/ contains synthetic data for simulations.
+
 ./data/TurkData/ contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data.
+
 
 The synthetic data includes babi ("babi1_\*") tasks and WikiMovies ("movieQA_\*") data.
 
