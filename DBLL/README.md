@@ -6,7 +6,7 @@ This project contains code for the dialog-based learning MemN2N setup in the fol
 
 This code requires [Torch7](http://torch.ch) and its luarocks packages cutorch, cunn, nngraph, torchx, and tds.
 
-To get the data, from this directory first run ./setup\_data.sh to download the data (368M download, unpacks to 4.8GB).
+To get the data, from this directory first run ./setup\_data.sh to download the data (368M download, unpacks to 4.7GB).
 
 ## Usage
 
