@@ -81,7 +81,6 @@ Available options are:
     -thres			(default 40, threshold for gradient clipping)
     -N_iter         (default 14, the number of total iterations to run)
     -StaringFullTraining    (default 10, the number of iterations after which to start training AskQuestion vs notAskQuestion policy)
-
     -gpu_index		(default 1, which GPU to use)
     -task			(default 1, which task to test)
     -REINFORCE      (default false, where to train the REINFORCE algorithm)
