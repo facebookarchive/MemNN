@@ -13,8 +13,7 @@ data/movieQA_kb contains movieQA knowledge base (based on [WikiMovies](http://fb
 data/AQ_supervised_data contains data to run the supervised settings described in the paper
 data/AQ_reinforce_data contains data to run the reinforcement learning settings described in the paper
 
-## Folders
-Simulator
+## Simulator
 
 The Simulator described in the paper that simulates dialogues between a teacher and a student.
 This transforms the movieQA data to the version used to train the supervised and reinforcement learning models.
@@ -23,7 +22,9 @@ As demonstrated there, to run the simulator:
 
     th runSimulator.lua [params]
 
+
 Available options are:
+
     -mode           (default train, taking values of train|dev|test)
     -task           (default 1, the task you want to simulate, taking values of 1-9)
     -prob_correct_final_answer  (default 0.5, the policy that controls the probability that a student gives a correct final answer)
@@ -35,7 +36,7 @@ Available options are:
     -output_dir     (default "./", the output folder path)
 
 
-Supervised
+## Supervised
 
 The offline supervised learning settings described in the paper
 
@@ -43,7 +44,9 @@ to run the trainer:
 
     th train_supervised.lua [params]
 
+
 Available options are:
+
     -batch_size		(default 32, the batch size for model training)
     -init_weight	(default 0.1, initialization weights)
     -N_hop			(default 3, number of hops)
@@ -59,13 +62,16 @@ Available options are:
     -context_num    (default 1, the number of left/right neighbors to be considered as contexts)
 
 
-Reinforce
+## Reinforce
 
 The online reinforcement learning settings described in the paper.
 
 to run the trainer:
 
     th train_RL.lua [params]
+
+
+Available options are:
 
     -batch_size		(default 32, the batch size for model training)
     -token_size		(default 0, number of tokens)
