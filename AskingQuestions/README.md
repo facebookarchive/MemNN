@@ -1,4 +1,4 @@
-# Dialogue Learning With Human-in-the-Loop.
+# Learning through Dialog Interactions
 
 This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle)".
 
