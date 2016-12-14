@@ -16,6 +16,9 @@ This includes code in the following subdirectories:
 * [HITL](HITL): Code to train MemN2N on tasks from the paper "[Dialogue Learning With Human-in-the-Loop](https://arxiv.org/abs/1611.09823)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
+* [AskingQuestions](AskingQuestions): Code to train MemN2N on tasks from the paper "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+
+
 ### Other 3rd party implementations
 * [python-babi](https://github.com/vinhkhuc/MemN2N-babi-python): MemN2N implemenation on bAbI tasks with very nice interactive demo.
 * [theano-babi](https://github.com/npow/MemN2N): MemN2N implementation in Theano for bAbI tasks.
