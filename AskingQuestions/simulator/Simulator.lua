@@ -1,8 +1,15 @@
+-- Copyright (c) 2015-present, Facebook, Inc.
+-- All rights reserved.
+--
+-- This source code is licensed under the BSD-style license found in the
+-- LICENSE file in the root directory of this source tree. An additional grant
+-- of patent rights can be found in the PATENTS file in the same directory.
+
 local stringx = require('pl.stringx')
 local movieDialogueSimulator={}
 
 function movieDialogueSimulator:Initial(opt,agents)
-    self.log = {} 
+    self.log = {}
     self.agents = {}
     for id, ag in pairs(agents) do
         self.agents[id] = ag
@@ -100,14 +107,14 @@ function movieDialogueSimulator:print_log()
         local should_write=true
         --whether we should keep or remove current kb fact
         --for task 1 2 3 4, all kb facts should be kept
-        --for task 5 6 7 8 9, we deliberately hide facts to make the kb incomplete so that the 
+        --for task 5 6 7 8 9, we deliberately hide facts to make the kb incomplete so that the
         --student can ask questions about the missing entities
         --whethr current fact should be removed is task-dependent
         if self.task==9 then
             --task 9, everything is missing, all facts need to be removed
             should_write=false
         elseif self.task==5 then
-            --task5 question entity is missing 
+            --task5 question entity is missing
             if formal_utter:find(teacher.question_entity)~=nil then
                 --remove that facts that contain the question entity
                 should_write=false;
@@ -139,7 +146,7 @@ function movieDialogueSimulator:print_log()
                 should_write=false;
             end
         end
-        if should_write then   
+        if should_write then
             lctr=lctr+1;
             self.output_file:write(lctr.." knowledgebase: "..formal_utter.."\t\t0\n")
         end
