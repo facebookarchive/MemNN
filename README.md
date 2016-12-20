@@ -19,6 +19,9 @@ This includes code in the following subdirectories:
 * [AskingQuestions](AskingQuestions): Code to train MemN2N on tasks from the paper "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
+* [KVmemnn](KVmemnn): Code to train MemN2N on tasks from the paper "[Key-Value Memory Networks for Directly Reading Documents](https://arxiv.org/abs/1606.03126)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+
+
 ### Other 3rd party implementations
 * [python-babi](https://github.com/vinhkhuc/MemN2N-babi-python): MemN2N implemenation on bAbI tasks with very nice interactive demo.
 * [theano-babi](https://github.com/npow/MemN2N): MemN2N implementation in Theano for bAbI tasks.

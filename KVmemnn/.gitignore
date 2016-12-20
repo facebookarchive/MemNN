@@ -1,0 +1,3 @@
+*.so
+examples/WikiMovies/data*
+examples/WikiMovies/output*
