@@ -6,7 +6,7 @@ This project contains code for the dialog-based learning MemN2N setup in the fol
 
 This code requires [Torch7](http://torch.ch) and its luarocks packages cutorch, cunn, nngraph, torchx, and tds.
 
-To get the data, from this directory first run ./setup\_data.sh to download the data (1.7G download, unpacks to 8.3GB. md5: a590f31654fc5525e4fc2ee4557e80dc).
+To get the data, from this directory first run ./setup\_data.sh to download the data (1.6G download, unpacks to 8.4GB. md5: a590f31654fc5525e4fc2ee4557e80dc).
 
 ## Dataset
 data/movieQA_kb contains movieQA knowledge base (based on [WikiMovies](http://fb.ai/babi)) to run the simulators
