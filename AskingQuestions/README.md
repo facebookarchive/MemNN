@@ -11,6 +11,7 @@ To get the data, from this directory first run ./setup\_data.sh to download the 
 ## Dataset
 data/movieQA_kb contains movieQA knowledge base (based on [WikiMovies](http://fb.ai/babi)) to run the simulators
 data/AQ_supervised_data contains data to run the supervised settings described in the paper
+data/AQ_supervised_real contains human-written versions of supervised tasks 4 and 8
 data/AQ_reinforce_data contains data to run the reinforcement learning settings described in the paper
 
 ## Simulator
