@@ -1,4 +1,4 @@
-# Memory Augmented Neural Networks
+# Memory-Augmented Neural Networks
 
 This project contains implementations of memory augmented neural networks.
 This includes code in the following subdirectories:
