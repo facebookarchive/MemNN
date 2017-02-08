@@ -16,10 +16,13 @@ This includes code in the following subdirectories:
 * [HITL](HITL): Code to train MemN2N on tasks from the paper "[Dialogue Learning With Human-in-the-Loop](https://arxiv.org/abs/1611.09823)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
-* [AskingQuestions](AskingQuestions): Code to train MemN2N on tasks from the paper "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+* [AskingQuestions](AskingQuestions): Code to train MemN2N on tasks from the paper "[Learning through Dialogue Interactions](https://arxiv.org/abs/1612.04936)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
 * [KVmemnn](KVmemnn): Code to train MemN2N on tasks from the paper "[Key-Value Memory Networks for Directly Reading Documents](https://arxiv.org/abs/1606.03126)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
+
+
+* [EntNet-babi](EntNet-babi): Code to train an Entity Network on bAbI tasks, as described in the paper "[Tracking the World State with Recurrent Entity Networks](https://arxiv.org/abs/1612.03969)". This code is implemented in [Torch7](http://torch.ch); more documentation is given in the README in that subdirectory.
 
 
 ### Other 3rd party implementations

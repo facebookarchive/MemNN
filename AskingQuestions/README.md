@@ -1,6 +1,6 @@
 # Learning through Dialog Interactions
 
-This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle)".
+This project contains code for the dialog-based learning MemN2N setup in the following paper: "[Learning through Dialogue Interactions](https://arxiv.org/abs/1612.04936)".
 
 ## Setup
 
@@ -97,4 +97,4 @@ Available options are:
 
 ## References
 
-* Jiwei Li, Alexander H. Miller, Sumit Chopra, Marc'Aurelio Ranzato and Jason Weston, "[Learning through Dialogue Interactions](https://openreview.net/pdf?id=rkE8pVcle).
+* Jiwei Li, Alexander H. Miller, Sumit Chopra, Marc'Aurelio Ranzato and Jason Weston, "[Learning through Dialogue Interactions](https://arxiv.org/abs/1612.04936)", *arXiv:1612.04936 [cs.CL]*.
