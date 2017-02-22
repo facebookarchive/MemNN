@@ -2,7 +2,7 @@
 -- To parse a line of the given input.
 
 local pl = require('pl.import_into')()
-local hash = require('hash')
+local hash = require('library.hash')
 local tds = require('tds')
 
 local parser = {}
