@@ -9,7 +9,7 @@ local pl = require('pl.import_into')()
 local tds = require('tds')
 
 local ffi = require('ffi')
-local C = ffi.load('../../library/c/libmemnn.so')
+local C = ffi.load('libmemnn.so')
 ffi.cdef [[
 void addTFIDF(float* inp, float* out, int size, double TFIDFPow, double* freqs);
 void resolveMinOcc(

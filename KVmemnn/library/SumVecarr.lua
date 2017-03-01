@@ -3,7 +3,7 @@
 local SumVecarr, parent = torch.class('nn.SumVecarr', 'nn.Module')
 
 local ffi = require('ffi')
-local C = ffi.load('../../library/c/libmemnn.so')
+local C = ffi.load('libmemnn.so')
 ffi.cdef [[
     void sum_doubles(double* data, float* len, int size, int dim,
         double* result);

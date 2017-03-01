@@ -7,7 +7,7 @@ local PositionalEncoder, parent =
 
 -- import C implementation of main functionality
 local ffi = require('ffi')
-local C = ffi.load('../../library/c/libmemnn.so')
+local C = ffi.load('libmemnn.so')
 ffi.cdef [[
     void pe_transform(int d, int size, float* input, float* len, float* result);
 ]]

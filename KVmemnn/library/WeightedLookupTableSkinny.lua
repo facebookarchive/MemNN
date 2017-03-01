@@ -6,7 +6,7 @@ local WeightedLookupTableSkinny, parent =
 WeightedLookupTableSkinny.__version = 1
 
 local ffi = require('ffi')
-local C = ffi.load('../../library/c/libmemnn.so')
+local C = ffi.load('libmemnn.so')
 ffi.cdef [[
 void wlts_updateOutput(
     int dims, long* sizes, int input_dim,

@@ -222,12 +222,20 @@ function kvmemNN:build_memory_vectors(ex)
 
     for i = #ex.memx, 1, -1 do
         add_memory(ex.memx[i], 'x', key_mem)
-        add_memory(ex.memy[i], 'y', val_mem, ex.memx[i])
+        if ex.memy and ex.memy[i] then
+            add_memory(ex.memy[i], 'y', val_mem, ex.memx[i])
+        else
+            add_memory(ex.memx[i], 'x', val_mem, ex.memx[i])
+        end
     end
     -- Add hashed deep memories that might be relevant.
     for i = 1, #ex.memhx do
         add_memory(ex.memhx[i], 'hx', key_mem)
-        add_memory(ex.memhy[i], 'hy', val_mem, ex.memhx[i])
+        if ex.memhy and ex.memhy[i] then
+            add_memory(ex.memhy[i], 'hy', val_mem, ex.memhx[i])
+        else
+            add_memory(ex.memhx[i], 'hx', val_mem)
+        end
     end
     if empty then
         -- No memories found: Make a dummy memory so we have at least one!
