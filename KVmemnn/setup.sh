@@ -19,6 +19,15 @@ if [ $? -ne 0 ]; then
     fi
 fi
 
+luarocks show tds 1>/dev/null 2>/dev/null
+if [ $? -ne 0 ]; then
+    luarocks install tds
+    if [ $? -ne 0 ]; then
+        echo "Error: resolve then run luarocks install tds"
+        exit 1
+    fi
+fi
+
 # compile libmemnn.so
 gcc -O3 -std=c99 -shared -o ./library/c/libmemnn.so -fPIC ./library/c/*.c
 if [ $? -ne 0 ]; then
