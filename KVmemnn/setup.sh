@@ -33,15 +33,8 @@ if [ -e syml_path -o -L syml_path ]; then
     rm syml_path
 fi
 
-base_path=''
-if [[ $# -eq 0 ]]; then
-    base_path=$(pwd)
-else
-    base_path="$1"
-fi
-
-ln -s "$base_path/library/c/libmemnn.so" syml_path
-echo "linking memnn lib from $base_path/library/c/libmemnn.so"
+echo "running: ln -s $(pwd)/library/c/libmemnn.so syml_path"
+ln -s $(pwd)/library/c/libmemnn.so syml_path
 if [ $? -ne 0 ]; then
     echo "Error linking memnn library to luarocks lib directory"
     exit 1
