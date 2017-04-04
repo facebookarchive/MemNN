@@ -29,12 +29,11 @@ fi
 # link libmemnn.so to lua lib
 s=$(which luarocks)
 syml_path="${s%luarocks}/../lib/libmemnn.so"
-if [ -e syml_path -o -L syml_path ]; then
-    rm syml_path
+if [ -e $syml_path -o -L $syml_path ]; then
+    rm $syml_path
 fi
 
-echo "running: ln -s $(pwd)/library/c/libmemnn.so syml_path"
-ln -s $(pwd)/library/c/libmemnn.so syml_path
+ln -s $(pwd)/library/c/libmemnn.so $syml_path
 if [ $? -ne 0 ]; then
     echo "Error linking memnn library to luarocks lib directory"
     exit 1
