@@ -1,6 +1,8 @@
 #!/bin/bash
 # Copyright 2004-present Facebook. All Rights Reserved.
 
+set -e
+
 luarocks install lzmq
 luarocks install threads
 
