@@ -30,7 +30,6 @@ Once you have either downloaded the data or generated it, then you can run...
 To customize the hyperparameters of the model, adjust the params.lua file or pass desired parameters in via the command line (e.g. `./run_train.sh numThreads=1 learningRate=0.1`).
 
 Output will go into the directory `output`, which you can test out by running ./run\_eval.sh with modelFilename directed towards the .best\_valid\_model file from those logs.
-You can download a pre-trained model by running the ./setup\_pretrained.sh file (334M download, unpacks to 737M).
 
 
 ## References
