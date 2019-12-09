@@ -7,5 +7,5 @@
 # LICENSE file in the root directory of this source tree. An additional grant
 # of patent rights can be found in the PATENTS file in the same directory.
 
-wget "https://s3.amazonaws.com/fair-data/memnn/human_in_the_loop/data.tar.gz" \
-&& tar -xzvf data.tar.gz && rm data.tar.gz
+wget "http://parl.ai/downloads/dbll/dbll.tgz" \
+&& tar -xzvf dbll.tgz && rm dbll.tgz

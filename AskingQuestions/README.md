@@ -6,20 +6,12 @@ This project contains code for the dialog-based learning MemN2N setup in the fol
 
 This code requires [Torch7](http://torch.ch) and its luarocks packages cutorch, cunn, nngraph, torchx, and tds.
 
-To get the data, from this directory first run ./setup\_data.sh to download the data (1.6G download, unpacks to 8.4GB. md5: a590f31654fc5525e4fc2ee4557e80dc).
-
-## Dataset
-data/movieQA_kb contains movieQA knowledge base (based on [WikiMovies](http://fb.ai/babi)) to run the simulators
-data/AQ_supervised_data contains data to run the supervised settings described in the paper
-data/AQ_supervised_real contains human-written versions of supervised tasks 4 and 8
-data/AQ_reinforce_data contains data to run the reinforcement learning settings described in the paper
-
 ## Simulator
 
 The Simulator described in the paper that simulates dialogues between a teacher and a student.
-This transforms the movieQA data to the version used to train the supervised and reinforcement learning models.
+This transforms movieQA data to the version used to train the supervised and reinforcement learning models.
 
-As demonstrated there, to run the simulator:
+to run the simulator:
 
     th runSimulator.lua [params]
 

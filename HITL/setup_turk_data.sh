@@ -7,5 +7,5 @@
 # LICENSE file in the root directory of this source tree. An additional grant
 # of patent rights can be found in the PATENTS file in the same directory.
 
-wget "https://s3.amazonaws.com/fair-data/memnn/human_in_the_loop/turk_data.tar.gz" \
-&& tar -xzvf turk_data.tar.gz && rm turk_data.tar.gz
+wget "http://parl.ai/downloads/mturkwikimovies/mturkwikimovies.tar.gz" \
+&& tar -xzvf mturkwikimovies.tar.gz && rm mturkwikimovies.tar.gz
