@@ -8,4 +8,4 @@
 # of patent rights can be found in the PATENTS file in the same directory.
 
 wget "http://parl.ai/downloads/mturkwikimovies/mturkwikimovies.tar.gz" \
-&& tar -xzvf mturkwikimovies.tar.gz && rm tumturkwikimovies.tar.gz
+&& tar -xzvf mturkwikimovies.tar.gz && rm mturkwikimovies.tar.gz
