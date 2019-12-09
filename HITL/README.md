@@ -16,7 +16,7 @@ After running ./setup\_data.sh:
 The synthetic data includes babi ("babi1_\*") tasks and WikiMovies ("movieQA_\*") data.
 
 
-We additionally have [another dataset available](https://s3.amazonaws.com/fair-data/memnn/human_in_the_loop/turk_data.tar.gz), which contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data. This data is in a slightly simpler format, so the code here does not yet run on it out-of-the-box. It is a 4M download which unpacks to 14M.
+We additionally have [another dataset available](http://parl.ai/downloads/mturkwikimovies/mturkwikimovies.tar.gz), which contains human-annotated versions of [WikiMovies](http://fb.ai/babi) data. This data is in a slightly simpler format, so the code here does not yet run on it out-of-the-box. It is a 4M download which unpacks to 14M.
 
 
 ## Usage
